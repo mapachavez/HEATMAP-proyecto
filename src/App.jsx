@@ -8,7 +8,7 @@ const MapboxExample = () => {
   const mapRef = useRef(null);
 
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFwYWNoYXZleiIsImEiOiJjbHo0MmcwcWgwN3N1MmpvbHFzdng0a29qIn0.FH43O_6ThRwaVMUsjgKlfg';
+    mapboxgl.accessToken = 'AQUI VA TU TOKEN';
 
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
